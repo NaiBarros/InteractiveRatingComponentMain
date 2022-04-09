@@ -27,46 +27,90 @@ main {
 }
 
 section {
-  height: 500px;
-  width: 500px;
+  height: 420px;
+  width: 420px;
   background-color: hsl(213, 19%, 18%);
   border-radius: 20px;
+  padding: 40px;
 
 }
 
 img {
   height: 30px;
   width: 30px;
+}
 
+.estrelinha {
+  width: 55px;
+  height: 55px;
+  background-color: hsl(217, 15%, 24%);
+  border-radius: 50%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.estrelinha img {
+  height: 20px;
+  width: 20px;
 
 }
+
 
 h1 {
   font-size: 32px;
   color: hsl(0, 0%, 100%);
   font-family: 'Overpass', sans-serif;
+  margin-bottom: 15px;
+
 }
 
 p {
   color: hsl(217, 12%, 63%);
   font-size: 15px;
   font-family: 'Overpass', sans-serif;
+
 }
 
 ul {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+
+
+
 }
 
+.botoes button {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(217, 15%, 24%);
+  border: none;
+}
 
-.selecionado {
+#submit {
+  height: 55px;
+  width: 340px;
+  border-radius: 30px;
+  margin-top: 20px;
   background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+button.selecionado {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
 }
 
 .botoes button:hover {
   background-color: hsl(217, 12%, 63%);
 }
 
-.botoes #submit:hover {
+#submit:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
 }
