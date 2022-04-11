@@ -54,7 +54,6 @@ img {
 .estrelinha img {
   height: 20px;
   width: 20px;
-
 }
 
 
@@ -99,6 +98,7 @@ ul {
   margin-top: 20px;
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
+  border:none;
 }
 
 button.selecionado {
@@ -106,11 +106,56 @@ button.selecionado {
   color: hsl(0, 0%, 100%);
 }
 
+.botoes button.selecionado:hover {
+  background-color: hsl(25, 97%, 53%);
+  
+}
+
 .botoes button:hover {
   background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
 }
 
 #submit:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
+}
+
+.ilustracaoThankYou {
+  display: flex;
+  justify-content: center;
+}
+
+.ilustracaoThankYou img {
+  width: 130px;
+  height: 88px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.avisoDeSelecao {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.avisoDeSelecao p {
+  width: 180px;
+  height: 30px;
+  background-color:hsl(217, 15%, 24%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: hsl(25, 97%, 53%);
+  
+}
+
+.thankYou {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subtitulo {
+  text-align: center;
 }
