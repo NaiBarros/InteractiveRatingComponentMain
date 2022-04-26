@@ -31,6 +31,8 @@ Este projeto foi construído visando praticar Javascript e como interagir com a 
   <img width="100%" src="./design/desktop-preview.jpg"/>
 </div>
 
+# :video_game: [Link para o projeto](https://naibarros.github.io/InteractiveRatingComponentMain/)
+
 ### :bulb: Utilidades para serem desenvolvidas
 - Salvar o valor no LocalStorage
 - Resetar o valor escolhido
