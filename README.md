@@ -21,7 +21,7 @@
 
 ## 🧐 Sobre o projeto <a name = "about"></a>
 
-Este projeto foi construido visando praticar Javascript e como interagir com a DOM.
+Este projeto foi construído visando praticar Javascript e como interagir com a DOM.
 
 ## 🎨 Layout
 
